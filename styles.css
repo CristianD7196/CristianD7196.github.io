@@ -112,7 +112,6 @@ h2 {
     color: var(--primary-color);
 }
 
-/* CARDS MISIÓN Y VISIÓN */
 .bg-primary {
     background-color: var(--primary-color) !important;
 }
@@ -246,3 +245,4 @@ footer a:hover {
     }
 
 }
+
