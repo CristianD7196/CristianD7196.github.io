@@ -17,7 +17,6 @@ body {
     color: #333;
 }
 
-
 .navbar-brand {
     font-size: 1.5rem;
 }
@@ -31,15 +30,12 @@ body {
     color: var(--warning-color) !important;
 }
 
-.logo-text {
-    display: inline-block;
-    padding: 2px 5px;
-    margin-right: 5px;
-    border: 2px solid var(--warning-color);
-    border-radius: 5px;
-    line-height: 1;
+.navbar-logo {
+    height: 35px;
+    width: auto;
+    vertical-align: middle;
+    border-radius: 10px;
 }
-
 
 .hero-section {
     background: linear-gradient(135deg, var(--primary-color) 0%, #2d5a8c 100%);
@@ -62,7 +58,6 @@ body {
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
 
-
 .service-card {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     border-radius: 10px;
@@ -82,7 +77,6 @@ body {
     font-size: 1.1rem;
 }
 
-
 section {
     scroll-margin-top: 80px;
 }
@@ -93,7 +87,6 @@ h2 {
     margin-bottom: 1.5rem;
 }
 
-
 #quienes {
     background: white;
 }
@@ -101,7 +94,6 @@ h2 {
 #quienes img {
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
 }
-
 
 #quienes ul li {
     font-size: 1rem;
@@ -139,11 +131,9 @@ h2 {
 
 
 
-
 .bg-primary {
     background-color: var(--primary-color) !important;
 }
-
 
 #contacto {
     background-color: var(--light-bg);
@@ -158,7 +148,6 @@ h2 {
     text-decoration: underline;
 }
 
-
 footer {
     background-color: var(--dark-color) !important;
     border-top: 3px solid var(--warning-color);
@@ -171,7 +160,6 @@ footer a {
 footer a:hover {
     color: var(--warning-color) !important;
 }
-
 
 .modal-header {
     background-color: var(--primary-color);
@@ -243,6 +231,4 @@ footer a:hover {
     .service-card {
         margin-bottom: 1rem;
     }
-
 }
-
