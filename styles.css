@@ -17,7 +17,7 @@ body {
     color: #333;
 }
 
-/* NAVBAR STYLES */
+
 .navbar-brand {
     font-size: 1.5rem;
 }
@@ -40,7 +40,7 @@ body {
     line-height: 1;
 }
 
-/* HERO SECTION */
+
 .hero-section {
     background: linear-gradient(135deg, var(--primary-color) 0%, #2d5a8c 100%);
     padding: 80px 0 !important;
@@ -62,7 +62,7 @@ body {
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
 
-/* SERVICE CARDS */
+
 .service-card {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     border-radius: 10px;
@@ -82,7 +82,7 @@ body {
     font-size: 1.1rem;
 }
 
-/* SECTIONS */
+
 section {
     scroll-margin-top: 80px;
 }
@@ -93,7 +93,7 @@ h2 {
     margin-bottom: 1.5rem;
 }
 
-/* QUIÉNES SOMOS */
+
 #quienes {
     background: white;
 }
@@ -102,7 +102,7 @@ h2 {
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
 }
 
-/* VALORES */
+
 #quienes ul li {
     font-size: 1rem;
     color: #555;
@@ -140,12 +140,12 @@ h2 {
 
 
 
-/* CTA SECTION */
+
 .bg-primary {
     background-color: var(--primary-color) !important;
 }
 
-/* CONTACTO */
+
 #contacto {
     background-color: var(--light-bg);
 }
@@ -159,7 +159,7 @@ h2 {
     text-decoration: underline;
 }
 
-/* FOOTER */
+
 footer {
     background-color: var(--dark-color) !important;
     border-top: 3px solid var(--warning-color);
@@ -173,7 +173,7 @@ footer a:hover {
     color: var(--warning-color) !important;
 }
 
-/* MODAL */
+
 .modal-header {
     background-color: var(--primary-color);
     color: white;
@@ -244,4 +244,5 @@ footer a:hover {
     .service-card {
         margin-bottom: 1rem;
     }
+
 }
